@@ -3,102 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cú pháp CSS - W3Schools</title>
+    <title>Menu Full W3Schools</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="topnav">
-        <a href="#">HTML</a>
-        <a href="#">CSS</a>
-        <a href="#">JAVASCRIPT</a>
-        <a href="#">SQL</a>
-        <a href="#">PYTHON</a>
-        <a href="#">JAVA</a>
-        <a href="#">HOW TO</a>
-        <a href="#">W3.CSS</a>
-        <a href="#">C</a>
-        <a href="#">C++</a>
-        <a href="#">C#</a>
+
+    <!-- MENU NGANG -->
+    <div class="navbar">
+        <a href="https://youtu.be/leJb3VhQCrg?si=xOoDk_EQ5yFjfD9C">072019</a>
+        <a href="https://www.youtube.com/watch?v=yNRd4if7CAY">HTCocoMeLon</a>
+        <a href="https://www.youtube.com/@CoComelonVietnamese">CocomelonSS</a>
+        <a href="https://www.youtube.com/watch?v=XsCfn6UEpss">JavaScript</a>
+        <div class="dropdown">
+            <a href="#">More ▼</a>
+            <div class="dropdown-content">
+                <a href="https://www.youtube.com/watch?v=PEM0Vs8jf1w">Go(lden hour)</a>
+                <a href="https://www.youtube.com/watch?v=IuV2y5te2o4">Python</a>
+                <a href="https://www.youtube.com/watch?v=IuV2y5te2o4">PHP</a>
+            </div>
+        </div>
     </div>
-    
+
+    <!-- MENU DỌC -->
     <div class="sidebar">
-        <a href="#">CSS Trang Chủ</a>
-        <a href="#">Giới thiệu về CSS</a>
-        <a href="#">Cú pháp CSS</a>
-        <a href="#">Bộ chọn CSS</a>
-        <a href="#">Bình luận CSS</a>
-        <a href="#">CSS làm thế nào để</a>
-        <a href="#">Màu sắc CSS</a>
-        <a href="#">Nền CSS</a>
-        <a href="#">Đường viền CSS</a>
-        <a href="#">Lề CSS</a>
-        <a href="#">Đệm CSS</a>
-        <a href="#">Chiều cao / Chiều rộng CSS</a>
-        <a href="#">Phác thảo CSS</a>
-        <a href="#">Văn bản CSS</a>
-        <a href="#">Phông chữ CSS</a>
+        <a href="https://www.youtube.com/watch?v=IpFX2vq8HKw">Blue HTML</a>
+        <a href="https://youtu.be/dQw4w9WgXcQ?si=nuVExKGY7ERVpXIa">HTML HOME</a>
+        <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">HTML Introduction</a>
+        <a href="https://www.youtube.com/watch?v=4-UbHw8eDzM">HTML Editors</a>
+        <a href="https://www.youtube.com/watch?v=ZHgyQGoeaB0">HTML Basic</a>
+        <a href="https://www.youtube.com/watch?v=MMdvNV6kAQk">HTML Elements</a>
+        <a href="https://www.youtube.com/watch?v=WePNs-G7puA">HTML Attributes</a>
+        <a href="https://www.youtube.com/watch?v=ZHgyQGoeaB0">HTML Headings</a>
+        <a href="https://www.youtube.com/watch?v=oHg5SJYRHA0">HTML Paragraphs</a>
+        <a href="https://www.youtube.com/watch?v=-i_TnZw9dYU">HTML Styles</a>
+        <a href="https://www.youtube.com/watch?v=WU1cEh4cVvg">HTML Colors</a>
+        <a href="https://www.youtube.com/watch?v=frN3nvhIHUk">HTML Links</a>
+        <a href="https://www.youtube.com/watch?v=astISOttCQ0">HTML Images</a>
+        <a href="#">HTML Tables</a>
+        <a href="#">HTML Lists</a>
+        <a href="#">HTML Classes</a>
+        <a href="#">HTML Id</a>
+        <a href="#">HTML Forms</a>
+        <a href="#">HTML Layout</a>
+        <a href="#">HTML Responsive</a>
     </div>
-    
+
+    <!-- NỘI DUNG -->
     <div class="content">
-        <h1>Cú pháp CSS</h1>
-        <p>Một quy tắc CSS bao gồm một bộ chọn và một khối khai báo.</p>
-        <div class="code-box">
-            h1 { color: blue; font-size: 12px; }
-        </div>
-        <p>Bộ chọn trỏ tới phần tử HTML mà bạn muốn định dạng.</p>
-        <p>Khối khai báo chứa một hoặc nhiều khai báo được phân tách bằng dấu chấm phẩy.</p>
-        <p>Mỗi khai báo bao gồm tên thuộc tính CSS và giá trị, được phân tách bằng dấu hai chấm.</p>
-        <p>Nhiều khai báo CSS được phân tách bằng dấu chấm phẩy và các khối khai báo được bao quanh bởi dấu ngoặc nhọn.</p>
-
-        <div class="example-box">
-            <h2>Ví dụ</h2>
-            <p>Trong ví dụ này, tất cả các phần tử <code>&lt;p&gt;</code> sẽ được căn giữa và có màu chữ đỏ:</p>
-            <div class="code-box">
-                p { <br>
-                &nbsp;&nbsp;color: red;<br>
-                &nbsp;&nbsp;text-align: center;<br>
-                }
-            </div>
-            <a href="#" class="button-test">Hãy tự mình thử »</a>
-        </div>
-
-        <h2>Ví dụ giải thích</h2>
-        <ul>
-            <li><code>p</code> là một bộ chọn trong CSS (nó trỏ đến phần tử HTML mà bạn muốn định dạng: <code>&lt;p&gt;</code>).</li>
-            <li><code>color</code> là một thuộc tính, và <code>red</code> là giá trị thuộc tính.</li>
-            <li><code>text-align</code> là một thuộc tính, và <code>center</code> là giá trị thuộc tính.</li>
-        </ul>
-
-        <div class="explanation">
-            Bạn sẽ tìm hiểu thêm về bộ chọn CSS và thuộc tính CSS trong các chương tiếp theo!
-        </div>
-
-        <div class="quiz-container">
-            <h2>Bài tập</h2>
-            <p class="question">Trong ví dụ sau, phần nào là bộ chọn?</p>
-            <p class="code">p { color: red; }</p>
-
-            <div class="options">
-                <label class="option">
-                    <input type="radio" name="answer" value="p"> p
-                </label>
-                <label class="option">
-                    <input type="radio" name="answer" value="code"> { color: red; }
-                </label>
-                <label class="option">
-                    <input type="radio" name="answer" value="color"> color
-                </label>
-                <label class="option">
-                    <input type="radio" name="answer" value="red"> red
-                </label>
-            </div>
-            <button class="submit-btn">Gửi câu trả lời »</button>
-        </div>
-
-        <div class="video-container">
-            <h2>Video: Cú pháp CSS</h2>
-            <img src="https://www.w3schools.com/css/images/css_syntax.webp">
-        </div>
+        <h2>HTML Colors</h2> <br>
+        <p>HTML colors are specified with predefined color names, or with RGB, HEX, HSL, RGBA, or HSLA values.</p>
     </div>
+
 </body>
 </html>
